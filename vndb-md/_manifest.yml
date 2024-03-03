@@ -1,0 +1,7 @@
+name: "vndb-md"
+title: "VNDB Markdown Formatter"
+description: A dummy package to quickly add VNDB hyperlink in Markdown format
+version: 0.1.0
+author: Vinfall
+homepage: "https://github.com/Vinfall/espanso-packages"
+tags: ["Markdown", "VN", "VNDB"]

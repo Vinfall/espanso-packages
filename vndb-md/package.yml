@@ -1,0 +1,3 @@
+matches:
+  - regex: ":(?P<prefix>[cdprsuvt])(?P<id>([0-9.#]+)):"
+    markdown: "[{{prefix}}{{id}}](https://vndb.org/{{prefix}}{{id}})"
