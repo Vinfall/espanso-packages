@@ -2,6 +2,14 @@
 
 Espanso external packages for my personal usage.
 
+## Install
+
+Packages can be installed with the following command:
+
+```sh
+espanso install {REPLACE-PACKAGE-NAME} --git https://github.com/Vinfall/espanso-packages --external
+```
+
 ## List
 
 | Package | Description |

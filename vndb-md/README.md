@@ -2,6 +2,12 @@
 
 Replace VNDBID with Markdown hyperlink in espanso.
 
+Install command:
+
+```sh
+espanso install vndb-md --git https://github.com/Vinfall/espanso-packages --external
+```
+
 Usage:
 - Input: `:v12345:`
 - Output: `[v12345](https://vndb.org/v12345)`
