@@ -1,0 +1,27 @@
+# Markdown Heading Shortcodes
+# Inspired by https://hub.espanso.org/markdown-shortcuts
+
+matches:
+  - trigger: ":h1:"
+    replace: "#"
+
+  - trigger: ":h2:"
+    replace: "##"
+
+  - trigger: ":h3:"
+    replace: "###"
+
+  - trigger: ":h4:"
+    replace: "####"
+
+  - trigger: ":h5:"
+    replace: "#####"
+
+  - trigger: ":h6:"
+    replace: "######"
+
+  - trigger: ":h7:"
+    replace: "#######"
+
+  - trigger: ":h8:"
+    replace: "########"
