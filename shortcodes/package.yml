@@ -1,0 +1,11 @@
+# Personal Shortcodes for Obsidian/Hugo
+
+# Shortcode: https://blog.vinfall.com/posts/2023/07/obsidian-shortcode
+# espanso doc: https://espanso.org/docs/matches/basics/#cursor-hints
+
+matches:
+  - trigger: ":spoiler"
+    replace: "\\{\\{< spoiler >\\}\\}$|$\\{\\{< /spoiler >\\}\\}"
+
+  - trigger: ":ruby"
+    replace: "\\{\\{< ruby $|$  >\\}\\}"

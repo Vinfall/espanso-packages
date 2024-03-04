@@ -1,0 +1,7 @@
+name: "shortcodes"
+title: "Shortcodes"
+description: Personal Shortcodes for Obsidian/Hugo
+version: 0.1.0
+author: Vinfall
+homepage: "https://github.com/Vinfall/espanso-packages"
+tags: ["HTML", "Obsidian", "Hugo"]
