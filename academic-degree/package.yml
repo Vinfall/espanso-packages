@@ -1,0 +1,83 @@
+matches:
+  # Associate's
+  - trigger: ":aa:"
+    replace: "Associate of Arts"
+  - trigger: ":as:"
+    replace: "Associate of Science"
+
+  # Bachelor's
+  - trigger: ":ba:"
+    replace: "Bachelor of Arts"
+  - trigger: ":bfa:"
+    replace: "Bachelor of Fine Arts"
+  - triggers: [":bs:", ":bsc:"]
+    replace: "Bachelor of Science"
+  - trigger: ":bgs:"
+    replace: "Bachelor of General Studies"
+  - trigger: ":bls:"
+    replace: "Bachelor of Library Science"
+  - trigger: ":bba:"
+    replace: "Bachelor of Business Administration"
+  - trigger: ":bhs:"
+    replace: "Bachelor of Health Science"
+
+  # Master's
+  - trigger: ":ma:"
+    replace: "Master of Arts"
+  - trigger: ":mfa:"
+    replace: "Master of Fine Arts"
+  - triggers: [":ms:", ":msc:"]
+    replace: "Master of Science"
+  - trigger: ":meng:"
+    replace: "Master of Engineering"
+  - triggers: [":mcom:", ":mcomm:"]
+    replace: "Master of Commerce"
+  - triggers: [":mec:", ":mecon:"]
+    replace: "Master of Economics"
+  - trigger: ":mpa:"
+    replace: "Master of Public Administration"
+  - trigger: ":mpp:"
+    replace: "Master of Public Policy"
+  - trigger: ":mph:"
+    replace: "Master of Public Health"
+  - triggers: [":mm:", ":mbm:", ":mim:", ":mmgt:"]
+    replace: "Master of Management"
+  - trigger: ":mgs:"
+    replace: "Master of General Studies"
+  - trigger: ":mls:"
+    replace: "Master of Library Science"
+  - trigger: ":mba:"
+    replace: "Master of Business Administration"
+  - trigger: ":mhs:"
+    replace: "Master of Health Science"
+  - triggers: [":mis:", ":mism:"]
+    replace: "Master of Information System Management"
+  - trigger: ":edm:"
+    replace: "Master of Education"
+  - trigger: ":mphil:"
+    replace: "Master of Philosophy"
+
+  # Doctoral
+  - trigger: ":phd:"
+    # replace: "Doctor of Philosophy"
+    replace: "Ph.D. of "
+  - trigger: ":edd:"
+    replace: "Doctor of Education"
+
+  # Professional
+  # Law
+  - trigger: ":llb:"
+    replace: "Bachelor of Laws"
+  - trigger: ":llm:"
+    replace: "Master of Laws"
+  - trigger: ":jd:"
+    replace: "Juris Doctor"
+  - trigger: ":sjd:"
+    replace: "Doctor of Juridical Science"
+  - trigger: ":jsd:"
+    replace: "Doctor of the Science of Law"
+  # Medical
+  - trigger: ":md:"
+    replace: "Doctor of Medicine"
+  - trigger: ":mo:"
+    replace: "Doctor of Osteopathic Medicine"
