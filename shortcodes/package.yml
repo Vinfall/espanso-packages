@@ -1,7 +1,9 @@
 # Personal Shortcodes for Obsidian/Hugo
 
 # Shortcode: https://blog.vinfall.com/posts/2023/07/obsidian-shortcode
-# espanso doc: https://espanso.org/docs/matches/basics/#cursor-hints
+# espanso doc:
+#   https://espanso.org/docs/matches/basics/#cursor-hints
+#   https://espanso.org/docs/matches/basics/#multi-line-expansions
 
 matches:
   - trigger: ":spoiler"
@@ -9,3 +11,9 @@ matches:
 
   - trigger: ":ruby"
     replace: "\\{\\{< ruby $|$  >\\}\\}"
+
+  - triggers: [":vid:", ":video:"]
+    replace: |
+      <video id="video-player" controls>
+      <source src="/img/change-name-here.webm" type="video/webm">
+      </video>
