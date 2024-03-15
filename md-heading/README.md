@@ -1,6 +1,6 @@
 # Markdown Heading
 
-A dummy package to quickly add Markdown headings (H1, H2, H3...H8).
+A dumb package to quickly add Markdown headings (H1, H2, H3...H8).
 
 Install command:
 
