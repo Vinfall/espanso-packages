@@ -17,6 +17,7 @@ espanso install {REPLACE-PACKAGE-NAME} --git https://github.com/Vinfall/espanso-
 | [md-heading](md-heading/README.md) | Add Markdown headings (H1, H2, H3...H8) |
 | [shortcodes](shortcodes/README.md) | Add personal shortcodes for Obsidian/Hugo |
 | [vndb-md](vndb-md/README.md) | Replace VNDBID with Markdown hyperlink |
+| [activitywatch](activitywatch/README.md) | ActivityWatch shortcodes |
 
 Please check the respective package README for details.
 

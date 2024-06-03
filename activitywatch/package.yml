@@ -1,0 +1,32 @@
+# Shortcodes for ActivityWatch
+
+# Global variables
+# https://espanso.org/docs/matches/basics/#global-variables
+global_vars:
+  - name: hostname
+    type: shell
+    params:
+      # Universal
+      cmd: "hostname"
+      # Linux / macOS
+      # cmd: "echo $HOST"
+      # shell: bash
+      # Windows only
+      # cmd: "echo env:COMPUTERNAME"
+      # shell: powershell
+
+matches:
+  # Timeline
+  - trigger: ":awt"
+    replace: "http://localhost:5600/#/timeline"
+  # Dashboard
+  - trigger: ":awd"
+    replace: "http://localhost:5600/#/activity/{{hostname}}/view/"
+  # Last7d
+  - trigger: ":aww"
+    replace: "http://localhost:5600/#/activity/{{hostname}}/last7d/{{mydate}}/view/summary"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
