@@ -1,5 +1,8 @@
 # espanso-packages
 
+> [!WARNING]
+> Deprecated as I moved to lua scripts via [librime-lua](https://github.com/hchunhui/librime-lua/wiki/Scripting).
+
 Espanso external packages for my personal usage.
 
 ## Install
